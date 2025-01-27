@@ -65,8 +65,8 @@ sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*seeds *=.*/seeds = \"$SEEDS\"/}" \
 
 **download genesis and addrbook**
 ```
-wget -O $HOME/.story/story/config/genesis.json https://server-7.itrocket.net/testnet/story/genesis.json
-wget -O $HOME/.story/story/config/addrbook.json  https://server-7.itrocket.net/testnet/story/addrbook.json
+wget -O $HOME/.story/story/config/genesis.json https://raw.githubusercontent.com/Apollo-Sync/Story-odyssey/refs/heads/main/addrbook.json
+wget -O $HOME/.story/story/config/addrbook.json https://raw.githubusercontent.com/Apollo-Sync/Story-odyssey/refs/heads/main/genesis.json
 ```
 
 **set custom ports in story.toml file**
