@@ -163,3 +163,7 @@ sudo systemctl restart story-geth && sleep 5 && sudo systemctl restart story
 ```
 journalctl -u story -u story-geth -f
 ```
+
+
+TESTNET ENDING !
+MAINET RUNING!
