@@ -131,10 +131,13 @@ EOF
 ```
 
 **download snapshots**
+
 1. backup priv_validator_state.json
 ```
 cp $HOME/.story/story/data/priv_validator_state.json $HOME/.story/story/priv_validator_state.json.backup
 ```
+
+
 2. remove old data and unpack Story snapshot
 ```
 rm -rf $HOME/.story/story/data
